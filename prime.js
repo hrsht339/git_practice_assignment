@@ -5,10 +5,11 @@ if(num%i==0){
 count++;
 }
 }
-if(count>2){
-return false;
+if(count==2){//Gandu we have to take those value in which count run 2 times.
+return true;//now it will return true.
 }
-return false;
+return false;//Else bhi use kiye kr AALSI
 }
 
-prime(5);
+Let Ans=prime(5);//whenever you return value always take ans in a variable.
+  console.log(Ans);
